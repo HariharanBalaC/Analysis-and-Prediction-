@@ -13,6 +13,17 @@ warnings.filterwarnings("ignore")
 df = pd.read_csv('Downloads\MSDhoni.csv')
 df1= pd.read_csv('Downloads\msdvsteams.csv')
 df2= pd.read_csv('Downloads\msdinground.csv')
+df6= pd.read_csv('Downloads\msposition.csv')
+df8= pd.read_csv('Downloads\MSWINKNOCKS.csv')
+df10= pd.read_csv('Downloads\msresult.csv')
+
+df3 = pd.read_csv('Downloads\dkvsopp.csv')
+df4 = pd.read_csv('Downloads\data\dk.csv')
+df5 = pd.read_csv('Downloads\data\dkinground.csv')
+df7= pd.read_csv('Downloads\dkposition.csv')
+df9= pd.read_csv('Downloads\msposition.csv')
+
+
 #1.msdmatchesvs teams
 sns.barplot(x='Matches', y='Teams', data=df1)
 plt.xlabel('Matches')
